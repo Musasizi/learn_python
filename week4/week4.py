@@ -20,11 +20,6 @@
 # print(3e8)
 # print(3e-2)
 
-# name
-# Bread
-# Unit Cost
-# Quantity
-# Cost
 
 # print(8+2)
 # print(8-2)
@@ -37,9 +32,27 @@
 # print(2**3)
 
 
-print(1_000_000)
+# print(1_000_000)
 
-unit_cost = 6000
-quantity = 5
+
+# name
+# Bread
+# Unit Cost
+# Quantity
+# Cost
+name = input("What is your name? ")
+item = input("What item are you taking? ")
+unit_cost = float(input("What is the unit cost? "))
+quantity = float(input("What is the quantity? "))
 total_cost = quantity * unit_cost
-# print(total_cost)
+print(total_cost)
+print('*' * 20)
+print('Hello', name, 'here is your bill for', item)
+print('Unit cost: ', unit_cost)
+print('Total cost: ', total_cost)
+print('Thank you for shopping with BSIT Conf.')
+print('*' * 20)
+
+# our_value = float(input("Enter anything "))
+# print(our_value)
+# print(type(our_value))
