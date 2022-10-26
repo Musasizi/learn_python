@@ -21,11 +21,14 @@ class Person:
             raise ValueError('Invalid country: %s' % country)
         self._country = country
 
+    def __str__(self):
+        return f"name: {self.name} country: {self.country}"
+
 
 def main():
     person = get_person()
-    person._name = "Ken"
-    print(f"name: {person.name} country: {person.country}")
+    person.name = "Ken"
+    print(person)
 
 
 def get_person():
