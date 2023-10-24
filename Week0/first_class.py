@@ -56,3 +56,4 @@ graduation_date = None
 semester_studied = [1, 2, "Three"]
 
 cart_item = ["Book", "Bic Pencil", "Sugar", "Coffee"]
+
