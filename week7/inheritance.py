@@ -28,6 +28,8 @@ obstinate_student = Student('Kisakye Desire', 16, 'a7080', 'Bsc.AE')
 
 obstinate_student.start_walking()
 
+student1 = Student()
+
 # student1.start_walking()
 # print(student1.name)
 # print(student1.age)
