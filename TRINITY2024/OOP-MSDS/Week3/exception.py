@@ -11,6 +11,7 @@
     # ZeroDivisionError
     # KeyError
     # TypeError
+    # ValueError
     # FileNotFoundError
     # IndentationError 
     

@@ -7,13 +7,13 @@ def greetUser(username ):
 # Lambda function
 # lambda arguments : expression
 
-greetUser2 = lambda user_number: f"Greetings {user_number}"
+greetUser2 = lambda user_name: f"Greetings {user_name}"
 
 # print(greetUser2("Joseph"))
 
-add_numbers = lambda x,y: x+y
+add_numbers = lambda x,y,z: x+y+z
 
-print(add_numbers(90,14))
+print(add_numbers(90,14,23))
 
 # Single Expressions
 # No Default Arguments
@@ -26,6 +26,7 @@ print(add_numbers(90,14))
 numbers = [1,2,3,4,5,35,54,64,45,4,643,21,42,4]
 
 is_even = lambda number: number%2 == 0
+
 even_numbers = list(filter(is_even, numbers))
 
 even_numbers2 = list(filter(lambda num: num%2 == 0, numbers))
