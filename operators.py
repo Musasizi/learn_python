@@ -6,4 +6,5 @@ dict1 = {10: 'n', 2:'i', 3: 'g', 4:'g', 5:'a'}
 print( 'c' in message)
 
 print( 1 in dict1)
+//
 
